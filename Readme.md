@@ -1,4 +1,4 @@
-# object-decomposer [![codecov](https://codecov.io/gh/cyb3rsyph0n/object-decomposer/branch/master/graph/badge.svg)](https://codecov.io/gh/cyb3rsyph0n/object-decomposer)
+# object-decomposer ![CircleCI](https://circleci.com/gh/cyb3rsyph0n/object-decomposer/tree/master.svg?style=svg) [![codecov](https://codecov.io/gh/cyb3rsyph0n/object-decomposer/branch/master/graph/badge.svg)](https://codecov.io/gh/cyb3rsyph0n/object-decomposer)
 
 ## Normalizing an Array into a key value pair
 

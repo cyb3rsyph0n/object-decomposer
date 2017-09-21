@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
-    "test": "mocha test test/**/*.test.js --reporter list"
+    "test": "mocha test test/**/*.test.js --reporter list",
+    "report-coverage":
+      "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
   },
   "author": "Michael E. Chancey Jr.",
   "license": "ISC",
