@@ -1,5 +1,5 @@
 {
-  "name": "object-normalizer",
+  "name": "object-decomposer",
   "version": "1.0.0",
   "description":
     "Normalize an array or hierarchical data into an array or key value pair object",
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cyb3rsyph0n/object-normalizer.git"
+    "url": "https://github.com/cyb3rsyph0n/object-decomposer.git"
   }
 }
