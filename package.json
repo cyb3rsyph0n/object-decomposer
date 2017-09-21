@@ -1,6 +1,6 @@
 {
   "name": "object-decomposer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Normalize an array or hierarchical data into an array or key value pair object",
   "main": "index.js",
   "scripts": {
