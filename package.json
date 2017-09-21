@@ -1,14 +1,12 @@
 {
   "name": "object-decomposer",
   "version": "1.0.1",
-  "description":
-    "Normalize an array or hierarchical data into an array or key value pair object",
+  "description": "Normalize an array or hierarchical data into an array or key value pair object",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
     "test": "mocha test test/**/*.test.js --reporter list",
-    "report-coverage":
-      "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
+    "report-coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
   },
   "author": "Michael E. Chancey Jr.",
   "license": "ISC",
@@ -20,6 +18,7 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.3.0",
+    "istanbul": "^0.4.5",
     "mocha": "^3.5.3"
   },
   "repository": {
