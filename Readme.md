@@ -1,6 +1,4 @@
-# object-decomposer
-
-> install: npm install --save object-decomposer
+# object-decomposer [![codecov](https://codecov.io/gh/cyb3rsyph0n/object-decomposer/branch/master/graph/badge.svg)](https://codecov.io/gh/cyb3rsyph0n/object-decomposer)
 
 ## Normalizing an Array into a key value pair
 
