@@ -7,7 +7,7 @@
     "build": "precompile && mv dist/index.compiled.for.0.10.js dist/main.js",
     "lint": "./node_modules/.bin/eslint src/",
     "test": "mocha --compilers js:babel-core/register test test/**/*.test.js --reporter list",
-    "report-coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --compilers js:babel-core/register --report lcovonly -- -R spec && codecov"
+    "report-coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- --compilers js:babel-core/register test test/**/*.test.js --report lcovonly -- -R spec && codecov"
   },
   "config": {
     "pre-compiled": {
