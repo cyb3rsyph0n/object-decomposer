@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { normalizeArray } = require('../');
+const normalizeArray = require('../src/normalizeArray').default;
 
 describe('normalizeArray', () => {
   const goodMockedData = [

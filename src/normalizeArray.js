@@ -22,4 +22,4 @@ function normalizeArray(arr, key) {
   return result;
 }
 
-module.exports = normalizeArray;
+export default normalizeArray;

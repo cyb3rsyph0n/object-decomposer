@@ -1,7 +1,7 @@
-const normalizeArray = require('./normalizeArray');
-const normalizeHierarchy = require('./normalizeHierarchy');
+import normalizeArray from './normalizeArray';
+import normalizeHierarchy from './normalizeHierarchy';
 
-module.exports = {
+export default {
   normalizeArray,
   normalizeHierarchy,
 };
