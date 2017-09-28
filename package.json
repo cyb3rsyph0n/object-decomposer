@@ -53,5 +53,8 @@
     "flatten",
     "normalize",
     "map hierarchy to flat object"
-  ]
+  ],
+  "dependencies": {
+    "pick-precompiled": "^1.0.2"
+  }
 }
