@@ -4,9 +4,8 @@
   "description": "Normalize an array or hierarchical data into an array or key value pair object",
   "main": "dist/main.js",
   "scripts": {
-    "build": "precompile",
-    "postinstall": "pick-precompiled",
-    "lint": "./node_modules/.bin/eslint .",
+    "build": "precompile && mv dist/index.compiled.for.0.10.js dist/main.js",
+    "lint": "./node_modules/.bin/eslint src/",
     "test": "mocha --compilers js:babel-core/register test test/**/*.test.js --reporter list",
     "report-coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
   },
@@ -15,6 +14,9 @@
       "dir": "dist",
       "files": [
         "src/index.js"
+      ],
+      "node": [
+        "0.10"
       ]
     }
   },
@@ -51,8 +53,5 @@
     "flatten",
     "normalize",
     "map hierarchy to flat object"
-  ],
-  "dependencies": {
-    "pick-precompiled": "^1.0.2"
-  }
+  ]
 }
